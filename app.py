@@ -1,5 +1,5 @@
-#from azure.identity import ManagedIdentityCredential
-#rom azure.keyvault.secrets import SecretClient
+from azure.identity import ManagedIdentityCredential
+from azure.keyvault.secrets import SecretClient
 #from azure.identity import DefaultAzureCredential
 from flask import Flask
 app = Flask(__name__)
